@@ -1,5 +1,5 @@
 #+TITLE: ME 101 Introduction to MechEng
-#+SUBTITLE: Fall 2025
+#+SUBTITLE: 2026 Fall
 #+AUTHOR: Fethi Okyar
 #+STARTUP: overview
 #+REVEAL_THEME: simple
@@ -26,40 +26,44 @@
 9. Awareness about the UN sustainability goals
 10. Able to conduct a technical presentation
 11. Demonstrate ability to reach institutional data sources
-12. Awareness about innovation and enterpreneurship (added in 24'F)
-13. Ability to function as member of a team (added in 24'F)
+12. Awareness about innovation and enterpreneurship
+13. Ability to function as member of a team
 
 * Evaluation
-| assignments  | 20 |
-| classwork    | 25 |
-| quizzes      | 15 |
-| attendance   | 10 |
-| final        | 30 |
+| Items                                          | (%) |
+|------------------------------------------------+-----|
+| Assignments + Classwork                        |  35 |
+| Report and (Final) Poster                      |  20 |
+| Short Quiz (Exit Survey)                       |  10 |
+| Computer-Based Learning                        |  15 |
+| (Final) Oral Presentation                      |  10 |
+| (Final) Peer Evaluation of Experiment Analysis |  10 |
 
 * Weekly outline
 #+REVEAL_HTML: <div style="font-size: 80%;">
-| Week | [[file:25FallSeminars.png][Speakers]] (Seminar) | Laboratory Session         |
-|------+--------------------+----------------------------|
-|    1 | Instructor         | 0.1 [[file+sys:./cmpnt-orientation/0.w1AcademicOrientation.pdf][Academic Orientation]]   |
-|    2 | Yusome             | 0.2 [[./cmpnt-orientation/orient.html::Personal Orientation][Personal Orientation]]   |
-|    3 | MMO Representative | 0.3 Career Orientation     |
-|    4 | Mechanicareer      | Mechanicareer              |
-|    5 | [[file:sunumlar/ME101_Innovation_2024Fall.pdf][Emre Ozturk]]        | 1. [[file:./cmpnt-writing/writing.html][Academic Writing]]        |
-|    6 | Racing Teams       | (cont'd)                   |
-|    7 | Merve Apaydın      | 2. Solid Modeling          |
-|    8 | Bilgehan İşbilir   | 3. [[./cmpnt-tabular/tabular.html][Tabulating Data]]         |
-|    9 | Cem Tutcu          | (cont'd)                   |
-|   10 | Research in us     | 4. Computer Familiarity    |
-|   11 | Mehmet Okutan      | 4. A Programming Language  |
-|   12 | Özerman/Akçaoğlu   | 5. Visualization/Sketching |
-|   13 | Salih Eraktan      | 6. Experiment              |
-|   14 | Gürkan Gezgin      | Presentation               |
+|  Week | [[file:25FallSeminars.png][Speakers]] (Seminar) | Laboratory Session         |
+|-------+--------------------+----------------------------|
+|     1 | Instructor         | 0.1 [[file+sys:./cmpnt-orientation/0.w1AcademicOrientation.pdf][Academic Orientation]]   |
+|     2 | ME Chair           | 0.2 [[./cmpnt-orientation/orient.html::Personal Orientation][Personal Orientation]]   |
+|     3 | Yusome             | 0.3 Career Orientation     |
+|     4 | MMO Representative | 1. [[file:./cmpnt-writing/writing.html][Academic Writing]]        |
+|     5 | [[file:sunumlar/ME101_Innovation_2024Fall.pdf][Emre Ozturk]]        | (cont'd)                   |
+|     6 | YuTech Teams       | 2. Solid Modeling          |
+|     7 |                    | 3. [[./cmpnt-tabular/tabular.html][Tabulating Data]]         |
+|     8 |                    | (cont'd)                   |
+|     9 |                    | 4. Computer Familiarity    |
+| 9 (S) | Saturday Session   | 4. A Programming Language  |
+|    10 |                    | 5. Visualization/Sketching |
+|    11 |                    | 6. Experiment              |
+|    12 |                    | 6. Analysis                |
+|    13 |                    | Presentation               |
 
 * Resources
 #+REVEAL_HTML: <div style="font-size: 60%;">
 #+ATTR_REVEAL: :frag (appear appear appear ...)
 - [[https://akts.yeditepe.edu.tr/web/Ects/CourseDetail?PID=207&BID=182&Y=1&Z=Z&G=1&DID=5184][Bologna Syllabus]]
-- ~README.org~ for each lecture
+- Lecture presentations
+- Seminar Slides (when made available by guest speaker)
 #+ATTR_REVEAL: :frag (appear appear appear ...)
 - Software
   #+ATTR_REVEAL: :frag (appear appear appear ...)
