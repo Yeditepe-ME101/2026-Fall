@@ -1,0 +1,71 @@
+#+TITLE: ME 101: 2025 Fall
+#+AUTHOR: Fethi Okyar
+#+DATE: 2025-10-23
+#+SUBTITLE: Component 1 Writing
+#+STARTUP: overview
+#+REVEAL_THEME: simple
+#+REVEAL_INIT_OPTIONS: slideNumber:"c/t", width:1920, height:1080
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2> <h3>%s</h3> <h4>%d</h4>
+#+OPTIONS: timestamp:nil toc:1 num:nil
+#+REVEAL_EXTRA_CSS: ../style.css
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+
+* From the last lecture
+#+ATTR_REVEAL: :frag (appear)
+Ask *AI*:
+#+ATTR_REVEAL: :frag (appear appear appear ...)
+- What is ethics? Philosophy, social conduct, or religion?
+- Explain the difference between using the LaTeX typesetting system locally (using the console) or in the cloud (Overleaf, etc.)
+  
+* Engineering Report Writing
+#+ATTR_REVEAL: :frag (appear)
+Various local resources are available from the Yulearn course pages 
+#+ATTR_REVEAL: :frag (appear appear appear ...)
+
+** [[https://yulearn.yeditepe.edu.tr/pluginfile.php/1028867/mod_folder/content/0/EngineeringReportAnatomy.pdf?forcedownload=1][Anatomy of an Engineering Report]]
+#+ATTR_REVEAL: :frag (appear)
+Review of the linked presentation
+Duration: 15-20 minute
+
+** [[https://yulearn.yeditepe.edu.tr/pluginfile.php/1028867/mod_folder/content/0/ScientificReportElements.pdf?forcedownload=1][Elements of a Scientific Report]] 
+#+ATTR_REVEAL: :frag (appear)
+Review of the linked presentation
+Duration: 10-15 minute
+
+** Groupwork: Search and Find
+#+ATTR_REVEAL: :frag (appear)
+- 10 minutes search for an engineering report in the internet. Hint:  use the names of big corporations in your search
+- correspond the report you located over the Yulearn discussion forum.
+- Submit the best report that you find to [[https://yulearn.yeditepe.edu.tr/mod/glossary/view.php?id=295879][Best Report Competition]].
+
+* [[https://yulearn.yeditepe.edu.tr/pluginfile.php/1028867/mod_folder/content/0/Word%20Processors.pptx?forcedownload=1][Typesetting using a Word Processor]]
+#+ATTR_REVEAL: :frag (appear)
+Review of the linked presentation.\\
+Duration: 15-20 minute
+
+Study the [[./sample-report.pdf][report template]]  for good report writing practices (this template forms the basis of the experiment report you will be asked to prepare towards the end of the semester).\\
+Duration: 15-20 minutes
+
+* LaTeX: an Alternative Typesetting Mode
+#+ATTR_REVEAL: :frag (appear)
+Visit some important references (5-10 minutes each):
+#+ATTR_REVEAL: :frag (appear appear appear ...)
+- [[https://latex.org/forum/][The Latex Community Discussion Forum]]
+- [[https://tug.org/begin.html][Getting started with TeX, LaTeX, and friends]]
+- [[https://www.latex-project.org/][The LaTeX Project]] 
+
+** [[https://www.overleaf.com][Overleaf, Online LaTeX Editor]]
+#+ATTR_REVEAL: :frag (appear)
+A viable option (the free version)
+#+ATTR_REVEAL: :frag (appear appear appear ...)
+- start a new article based on the minimal example provided in the  [[https://www.latex-project.org/][The LaTeX Project]].
+
+* Classwork: Report Writing
+#+ATTR_REVEAL: :frag (appear)
+Describe the assignment and give groups 40-45 minutes to complete the assignment in class.
+** [[./writing-assignment.html][Report Writing Assignment]]
+
+* Questions for next session
+Ask *AI*:
+#+ATTR_REVEAL: :frag (appear appear appear ...)
+- Which CAD system would you recommend for teaching CAD to K-12 or freshman undergrads?

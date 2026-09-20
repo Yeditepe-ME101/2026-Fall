@@ -1,0 +1,92 @@
+wordcloud
+Percieved Strengths of Gen Z & The Modern Era
+    values
+      Technology 18
+      Innovation 16
+      Global 15
+      Adaptation 14
+      Problem-Solving 13
+      Collaboration 12
+      Awareness 12
+      Data 11
+      Sustainability 11
+      Connectivity 10
+      Engineering 9
+      Learning 9
+      Creativity 8
+      Social 8
+      Communication 7
+      Analytics 7
+      Renewable 7
+      Energy 7
+      Entrepreneurship 6
+      Diversity 6
+      Resilience 5
+      Youth 5
+      AI 5
+      Digital 5
+      Fluency 5wordcloud
+ Perceived Weaknesses of Gen Z & The Modern Era
+    values
+      Inequality 16
+      Dependence 15
+      Anxiety 14
+      Addiction 13
+      Skills 12
+      Fossil 11
+      Fuels 11
+      Focus 10
+      Polarization 9
+      Unpreparedness 8
+      Distraction 7
+      Stress 7
+      Laziness 6
+      Ethics 5
+      Impatience 5
+      Burnout 5
+      Overthinking 4
+      Cooperation 4
+      Gap 3wordcloud
+ Perceived Opportunities for Gen Z & The Modern Era
+    values
+      Innovation 19
+      Sustainability 18
+      Global 17
+      AI 16
+      Collaboration 15
+      Technology 14
+      Green 13
+      Energy 12
+      Digital 11
+      Education 10
+      Economy 9
+      Exploration 8
+      Healthcare 7
+      Jobs 7
+      Learning 6
+      Space 6
+      Transformation 5
+      Markets 4
+      Networking 4
+      Entrepreneurship 3wordcloud
+ Perceived Threats to Gen Z & The Modern Era
+    values
+      Climate 20
+      AI 18
+      Inequality 16
+      Unemployment 15
+      Conflict 14
+      Misinformation 13
+      Cybersecurity 12
+      Resources 11
+      Economic 10
+      Crisis 9
+      Automation 8
+      Geopolitical 7
+      Health 7
+      Polarization 6
+      Privacy 6
+      Overpopulation 5
+      Skills 5
+      Competition 4
+      Erosion 4

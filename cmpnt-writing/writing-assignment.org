@@ -1,0 +1,37 @@
+#+TITLE: ME 101: 2025 Fall
+#+AUTHOR: Fethi Okyar
+#+DATE: 2025-10-23
+#+SUBTITLE: Assignment: Component 1 Writing
+#+STARTUP: overview
+#+REVEAL_THEME: simple
+#+REVEAL_INIT_OPTIONS: slideNumber:"c/t", width:1920, height:1080
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2> <h3>%s</h3> <h4>%d</h4>
+#+OPTIONS: timestamp:nil toc:1 num:nil
+#+REVEAL_EXTRA_CSS: ../style.css
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+
+* Assignment Instructions
+** 1. Open an account in Overleaf.
+1. Go to [[https://www.overleaf.com]].
+2. Create a new account linked to your student email.
+3. Login to your new  Overleaf account.
+
+** 2. Create a copy of the report template.
+1. Click on the [[https://www.overleaf.com/read/vnvpczskjydh#efda08][report template link]].
+2. Make a copy of this template and name it, e.g. "me101-classwork-1D"
+3. Find the lines that define the professor and author(s), and make required changes reflecting your group members.
+4. Polish the story that you submitted to [[https://yulearn.yeditepe.edu.tr/course/view.php?id=44037#][Sectoral Awareness]] assignment, and move it to your new report.
+5. Investigate the references.bib file, and create new entries for your report references.
+6. Make sure you have at least one equation, one table and one figure, and to cite them in your manuscript.
+7. Don't forget to include citations to your  references in the manuscript. 
+
+** 3. Compile the document (LaTeX only)
+1. Click on the =Compile= button in Overleaf.
+2. This will compile your =main.tex= file, and displayed the resulting PDF in the viewer.
+3. Error are also shown in a separate tab above the viewer window.
+
+** 4. Download/create a PDF and submit it.
+1. Confirm that your PDF reflects the necessary nae changes.
+2. Download the PDF into an appropriate directory in your filesystem.
+3. Upload the PDF file to the [[https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=295881][Homework Assignment]] in Yulearn.
+        

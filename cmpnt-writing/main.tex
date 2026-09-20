@@ -1,0 +1,84 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+ \renewcommand{\familydefault}{\sfdefault}
+%\usepackage[spanish]{babel}
+\usepackage{amsmath}   		
+\usepackage{amsfonts}  		
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[bookmarks=true,colorlinks=true,linkcolor=black,citecolor=black,menucolor=black,urlcolor=black]{hyperref}  
+\frenchspacing
+\numberwithin{equation}{section}
+\numberwithin{figure}{section} 
+\textwidth=17cm
+\textheight=21cm
+\topmargin=-1cm
+\oddsidemargin=0cm
+%\setlength{\columnsep}{0.7cm}	% la separaion de las columnas
+\newcommand{\nl}{~\\}
+\newcommand{\ohm}{\Omega}
+\begin{document}
+% Logo, Resume
+%\begin{algo}
+%\twocolumn[
+%\begin{@twocolumnfalse}
+
+\begin{tabular}{cl}
+\begin{tabular}{l}
+%{ \includegraphics[scale=0.35]{logo-uc-color.jpeg} }
+{ \includegraphics[scale=0.7]{logo-yeditepe.png} }
+\end{tabular}
+& 
+\begin{tabular}{l}
+\nl
+Yeditepe University \nl
+Faculty of Engineering - Mechanical Engineering Department \nl
+ME101 - Introduction to Mechanical Engineering \nl
+Professor: 
+\end{tabular}
+\end{tabular}
+
+\vspace{0.1cm}
+
+% experiment no
+\begin{center}
+{\textbf{\huge{Experiment X}}} 
+\\
+\vspace{0.2cm}
+Authors 
+\vspace{0.1cm}
+
+Date
+\end{center}
+
+% brief description
+\begin{abstract}
+{\normalsize
+In this experiment it was aimed to determine the gravitational constant ...
+} \nl \nl
+\end{abstract}		
+%\end{@twocolumnfalse}]
+%\end{algo}
+
+\section{Introduction}
+Theory and formulae
+\section{Experimental Setup}
+Description of setup\ pictures
+\section{Procedure}
+Description of experimental procedure
+\section{Results}
+Results, tables, graphs
+\section{Analysis}
+Sample calculations, outcomes
+\section{Conclusions}
+Assess whether the target was met \\
+Weaknesses and strengths (e.g. mistakes)\\ 
+Possible improvements
+
+% the bibliography file
+\bibliographystyle{ieee}
+\bibliography{references}
+
+\end{document}
+

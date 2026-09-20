@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ME 101 Introduction to MechEng</title>
+<meta name="author" content="Fethi Okyar" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">ME 101 Introduction to MechEng
+<br />
+<span class="subtitle">Fall 2025</span>
+</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org317145a">Goal</a></li>
+<li><a href="#org41b65e9">Contents</a></li>
+<li><a href="#org67c812d">CLOs</a></li>
+<li><a href="#org4ed9cf7">Evaluation</a></li>
+<li><a href="#org66680a0">Weekly outline</a></li>
+<li><a href="#orgb077082">Resources</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org317145a" class="outline-2">
+<h2 id="org317145a">Goal</h2>
+<div class="outline-text-2" id="text-org317145a">
+<ul class="org-ul">
+<li>To equip students with an understanding of what mechanical engineering is and what mechanical engineers do and what the main disciplines in this field are. To let students gain an awareness of ethics, contemporary issues, engineers’ responsibilities and some legal issues related to engineering. To inform students of the University and Faculty rules and regulations.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org41b65e9" class="outline-2">
+<h2 id="org41b65e9">Contents</h2>
+<div class="outline-text-2" id="text-org41b65e9">
+<ul class="org-ul">
+<li>Orientation, rules and regulations at the University. Introduction to mechanical engineering, its history and related professional organizations. Ethics and implications in engineering ethics. Engineering communications. Engineering codes and standards. Academic report writing and presentation tools. Fundamentals of computer aided design. Fundamentals of freehand sketching. Introduction to scientific computing.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org67c812d" class="outline-2">
+<h2 id="org67c812d">CLOs</h2>
+<div class="outline-text-2" id="text-org67c812d">
+<ol class="org-ol">
+<li>Can perform simple computation using the computer</li>
+<li>Able to explain the importance of engineering ethics</li>
+<li>Able to draw free-hand sketches of simple objects</li>
+<li>Able to create a simple CAD model</li>
+<li>Assess impact of global challenges on the future of  profession</li>
+<li>Conduct an experiment and acquire data</li>
+<li>Use software applications to write engineering reports</li>
+<li>Use software applications for data visualization</li>
+<li>Awareness about the UN sustainability goals</li>
+<li>Able to conduct a technical presentation</li>
+<li>Demonstrate ability to reach institutional data sources</li>
+<li>Awareness about innovation and enterpreneurship (added in 24&rsquo;F)</li>
+<li>Ability to function as member of a team (added in 24&rsquo;F)</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org4ed9cf7" class="outline-2">
+<h2 id="org4ed9cf7">Evaluation</h2>
+<div class="outline-text-2" id="text-org4ed9cf7">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">assignments</td>
+<td class="org-right">20</td>
+</tr>
+
+<tr>
+<td class="org-left">classwork</td>
+<td class="org-right">25</td>
+</tr>
+
+<tr>
+<td class="org-left">quizzes</td>
+<td class="org-right">15</td>
+</tr>
+
+<tr>
+<td class="org-left">attendance</td>
+<td class="org-right">10</td>
+</tr>
+
+<tr>
+<td class="org-left">final</td>
+<td class="org-right">30</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org66680a0" class="outline-2">
+<h2 id="org66680a0">Weekly outline</h2>
+<div class="outline-text-2" id="text-org66680a0">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Week</th>
+<th scope="col" class="org-left"><a href="25FallSeminars.png">Speakers</a> (Seminar)</th>
+<th scope="col" class="org-left">Laboratory Session</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">Instructor</td>
+<td class="org-left">0.1 <a href="./cmpnt-orientation/0.w1AcademicOrientation.pdf">Academic Orientation</a></td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-left">Yusome</td>
+<td class="org-left">0.2 <a href="./cmpnt-orientation/orient.html#MissingReference">Personal Orientation</a></td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-left">MMO Representative</td>
+<td class="org-left">0.3 Career Orientation</td>
+</tr>
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-left">Mechanicareer</td>
+<td class="org-left">Mechanicareer</td>
+</tr>
+
+<tr>
+<td class="org-right">5</td>
+<td class="org-left"><a href="sunumlar/ME101_Innovation_2024Fall.pdf">Emre Ozturk</a></td>
+<td class="org-left">1. <a href="./cmpnt-writing/writing.html">Academic Writing</a></td>
+</tr>
+
+<tr>
+<td class="org-right">6</td>
+<td class="org-left">Racing Teams</td>
+<td class="org-left">(cont&rsquo;d)</td>
+</tr>
+
+<tr>
+<td class="org-right">7</td>
+<td class="org-left">Merve Apaydın</td>
+<td class="org-left">2. Solid Modeling</td>
+</tr>
+
+<tr>
+<td class="org-right">8</td>
+<td class="org-left">Bilgehan İşbilir</td>
+<td class="org-left">3. <a href="./cmpnt-tabular/tabular.html">Tabulating Data</a></td>
+</tr>
+
+<tr>
+<td class="org-right">9</td>
+<td class="org-left">Cem Tutcu</td>
+<td class="org-left">(cont&rsquo;d)</td>
+</tr>
+
+<tr>
+<td class="org-right">10</td>
+<td class="org-left">Research in us</td>
+<td class="org-left">4. Computer Familiarity</td>
+</tr>
+
+<tr>
+<td class="org-right">11</td>
+<td class="org-left">Mehmet Okutan</td>
+<td class="org-left">4. A Programming Language</td>
+</tr>
+
+<tr>
+<td class="org-right">12</td>
+<td class="org-left">Özerman/Akçaoğlu</td>
+<td class="org-left">5. Visualization/Sketching</td>
+</tr>
+
+<tr>
+<td class="org-right">13</td>
+<td class="org-left">Salih Eraktan</td>
+<td class="org-left">6. Experiment</td>
+</tr>
+
+<tr>
+<td class="org-right">14</td>
+<td class="org-left">Gürkan Gezgin</td>
+<td class="org-left">Presentation</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgb077082" class="outline-2">
+<h2 id="orgb077082">Resources</h2>
+<div class="outline-text-2" id="text-orgb077082">
+<ul class="org-ul">
+<li><a href="https://akts.yeditepe.edu.tr/web/Ects/CourseDetail?PID=207&amp;BID=182&amp;Y=1&amp;Z=Z&amp;G=1&amp;DID=5184">Bologna Syllabus</a></li>
+<li><code>README.org</code> for each lecture</li>
+</ul>
+<ul class="org-ul">
+<li>Software
+<ul class="org-ul">
+<li>CAD: Onshape: <a href="https://yeditepe.onshape.com">https://yeditepe.onshape.com</a></li>
+<li>Math Programming: Octave: <a href="https://octave.org/download">https://octave.org/download</a></li>
+<li>Spreadsheet: MS/Libre Office</li>
+<li>Word Processing: MS/Libre Office</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Fethi Okyar</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

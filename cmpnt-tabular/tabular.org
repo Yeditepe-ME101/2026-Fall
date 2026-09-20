@@ -1,0 +1,52 @@
+#+TITLE: ME 101: 2024 Fall
+#+AUTHOR: Fethi Okyar
+#+DATE: 2024-11-16
+#+SUBTITLE: Component 3 Data Tabulation
+#+STARTUP: overview
+#+REVEAL_THEME: simple
+#+REVEAL_INIT_OPTIONS: slideNumber:"c/t", width:1920, height:1080
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2> <h3>%s</h3> <h4>%d</h4>
+#+OPTIONS: timestamp:nil toc:1 num:nil
+#+REVEAL_EXTRA_CSS: ../style.css
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+
+* AI time
+#+ATTR_REVEAL: :frag (appear)
+Ask *AI*:
+#+ATTR_REVEAL: :frag (appear appear appear ...)
+- What does data tabulation mean?
+  
+* Engineering Data Tabulation (w8)
+#+ATTR_REVEAL: :frag (appear)
+Various local resources are available from the Yulearn course pages 
+#+ATTR_REVEAL: :frag (appear appear appear ...)
+
+** [[https://yulearn.yeditepe.edu.tr/pluginfile.php/925852/mod_folder/content/0/excel_workshop.pdf?forcedownload=1][Elements of Data Tabulation and Visualization]]
+#+ATTR_REVEAL: :frag (appear)
+Review of the linked presentation
+Duration: 45-50 minutes
+
+** Groupwork: Infographic Contest
+#+ATTR_REVEAL: :frag (appear)
+- Determine a question or a search query about a topic of interest and curiosity, such as the /rate of global warming/, or the rate of global production, or /recession of the global economy/, or the span of knowledge covered by the AI, or /number of linux machines globally/, or /the rate of rise in the sea levels, or /inflation in Turkey/, or /the number of casualties due to armed conflicts in 2024/, or /the rate of deforestation in Amazonas/, or the population of the world, or /the population of Turkey/, or the economic performance of the *big pharma*, or big agriculture, or *big oil*, or AI, or the underwater oil production, etc. _Do not_ choose a topic that has already been chosen among your peer groups.
+- Check what AI will tell you about your question or search query.
+- Search the internet and select an infographics that best suites your topic question. 10 minutes
+- Upload the question as well as the image of the infographics in the appropriate spaces provided in the [[https://yulearn.yeditepe.edu.tr/mod/data/view.php?id=250030][Yulearn Database Activity]].
+- You will be able to grade and even provide comments on your peer groups work out of 5. This is called a peer-review process.
+- Duration: 20-25 minutes
+  
+* [[https://youtu.be/p0TQ8SV0g2U?si=dO6MFchgCBwBF2fP][Tensile Test Data Analysis (w9)]]
+#+ATTR_REVEAL: :frag (appear)
+- Watch the video linked to the slide title (the Youtube video showing stress-strain data manipulation to measure the elastic modulus and yield strength from a tensile test data file)
+- Import and analyze the tensile test [[https://yulearn.yeditepe.edu.tr/pluginfile.php/925852/mod_folder/content/0/Specimen_HamVeri_1.csv?forcedownload=1][data file]].
+Duration: 45-50 minutes
+
+** Groupwork: Google Sheets Assignment
+#+ATTR_REVEAL: :frag (appear)
+Finish the groupwork over the [[https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=237637][Yulearn Assignment Activity]].
+Duration: 45-50 minutes
+
+* Questions for next session
+Ask *AI*:
+#+ATTR_REVEAL: :frag (appear appear appear ...)
+- What are the benefits of improving free-hand sketching skills for an undergraduate engineering student?
