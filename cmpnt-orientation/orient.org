@@ -1,7 +1,7 @@
-#+TITLE: ME 101: 2025 Fall
+#+TITLE: Component 0. Orientation
 #+AUTHOR: Fethi Okyar
-#+DATE: 2025-10-03
-#+SUBTITLE: Component 0 Orientation
+#+DATE: 2026 Fall
+#+SUBTITLE: ME 101 Introduction to Mechanical Engineering
 #+STARTUP: overview
 #+REVEAL_THEME: simple
 #+REVEAL_INIT_OPTIONS: slideNumber:"c/t", width:1920, height:1080
