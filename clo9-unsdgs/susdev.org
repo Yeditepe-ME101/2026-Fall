@@ -1,0 +1,35 @@
+#+TITLE: Sustainable Development
+#+AUTHOR: Fethi Okyar
+#+DATE: <2026-09-26 Sat>
+#+SUBTITLE: ME 101 - 2026 Fall
+#+DESCRIPTION: Sustainable Development Goals
+#+STARTUP: overview
+#+REVEAL_THEME: simple
+#+REVEAL_INIT_OPTIONS: slideNumber:"c/t", width:1920, height:1080
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2> <h3>%s</h3> <h4>%d</h4>
+#+OPTIONS: timestamp:nil toc:1 num:nil
+#+REVEAL_EXTRA_CSS: ../style.css
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+
+* Motivation
+- Why should development be sustainable, what has been unsustainable so far?
+- What is wrong with the economic system that has led us to this point?
+- Who was mainly responsable for this?
+
+** Global Perspective
+- UN Sustainable Development Goals, [[https://sdgs.un.org/goals][17 SDGs]]
+- [[https://www.undp.org/sustainable-development-goals][United Nations Development Programme]]
+
+*** NGO Level Actions
+- [[https://fossilfueltreaty.org/][Fossil Fuel Non-Proliferation Treaty Initiative]]
+- [[https://www.engineeringforchange.org/][Engineering for Change]]
+- What else is out there?
+
+** National Perspective
+- What are related actions in Turkiye?
+- Should we just relax?
+  
+* Workshop
+#+ATTR_REVEAL: :frag (appear
+- [[https://mailchi.mp/engineeringforchange/energy-transition-building-lending-problem?e=6df3ed0338][The Energy Transition Has a Building and Lending Problem]]
+- 

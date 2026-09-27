@@ -56,18 +56,6 @@ Focus: Future Prospects and Challenges
 #+ATTR_HTML: :width 1200px
 [[./swot_2025.png]]
 
-** Self-Study: The Rule/Role of Ethics
-#+ATTR_REVEAL: :frag (appear)
-What is ethics? Watch the videos below to prepare for next week's short quiz activity.
-#+ATTR_REVEAL: :frag (appear appear appear ...)
-- Here's a fascinating account of ethics (in Turkish):
-  [[https://www.youtube.com/watch?v=Q88NhXSmK_I][Etik Değerler ve Eğitimi (Ethical Values)]] Ioanna Kuçuradi
-- Another longer yet more detailed account (in Turkish)
-  [[https://www.youtube.com/watch?v=g-MPvywIhJc&t=24s][Ahlaklar, Etik ve Etikler – Prof. Dr. İoanna Kuçuradi]]
-- The universal declaration of human rights
-  [[https://www.un.org/en/about-us/universal-declaration-of-human-rights]]
-- Digital Ethics Canvas
-  https://www.epfl.ch/education/educational-initiatives/cede/training-and-support/digital-ethics/
 
 * 0.3 Career Orientation (CLO11)
 #+ATTR_REVEAL: :frag (appear)

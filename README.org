@@ -41,22 +41,22 @@
 
 * Weekly outline
 #+REVEAL_HTML: <div style="font-size: 80%;">
-|  Week | [[file:25FallSeminars.png][Speakers]] (Seminar) | Laboratory Session         |
-|-------+--------------------+----------------------------|
-|     1 | Instructor         | 0.1 [[file+sys:./cmpnt-orientation/0.w1AcademicOrientation.pdf][Academic Orientation]]   |
-|     2 | ME Chair           | 0.2 [[./cmpnt-orientation/orient.html::Personal Orientation][Personal Orientation]]   |
-|     3 | Yusome             | 0.3 Career Orientation     |
-|     4 | MMO Representative | 1. [[file:./cmpnt-writing/writing.html][Academic Writing]]        |
-|     5 | [[file:sunumlar/ME101_Innovation_2024Fall.pdf][Emre Ozturk]]        | (cont'd)                   |
-|     6 | YuTech Teams       | 2. Solid Modeling          |
-|     7 |                    | 3. [[./cmpnt-tabular/tabular.html][Tabulating Data]]         |
-|     8 |                    | (cont'd)                   |
-|     9 |                    | 4. Computer Familiarity    |
-| 9 (S) | Saturday Session   | 4. A Programming Language  |
-|    10 |                    | 5. Visualization/Sketching |
-|    11 |                    | 6. Experiment              |
-|    12 |                    | 6. Analysis                |
-|    13 |                    | Presentation               |
+|  Week | [[file:25FallSeminars.png][Speakers]] (Seminar) | Laboratory Session          |
+|-------+--------------------+-----------------------------|
+|     1 | Instructor         | 0.1 [[file+sys:./cmpnt-orientation/0.w1AcademicOrientation.pdf][Academic Orientation]]    |
+|     2 | ME Chair           | 0.2 [[./cmpnt-orientation/orient.html::Personal Orientation][Personal Orientation]]    |
+|     3 | Yusome             | 0.3 Career Orientation      |
+|     4 | MMO Representative | 1.0 [[file:./cmpnt-writing/writing.html][Academic Writing]]        |
+|     5 | [[file:sunumlar/ME101_Innovation_2024Fall.pdf][Emre Ozturk]]        | 1.1 Latex Report(cont'd)    |
+|     6 | YuTech Teams       | 2.0 Solid Modeling          |
+|     7 |                    | 3.0 [[./cmpnt-tabular/tabular.html][Tabulating Data]]         |
+|     8 |                    | 3.1                         |
+|     9 |                    | 4.0 Computer Familiarity    |
+| 9 (S) | Saturday Session   | 4.1 A Programming Language  |
+|    10 |                    | 5.0 Visualization/Sketching |
+|    11 |                    | 6.0 Experiment              |
+|    12 |                    | 6.1 Analysis                |
+|    13 |                    | 6.2 Presentation            |
 
 * Resources
 #+REVEAL_HTML: <div style="font-size: 60%;">

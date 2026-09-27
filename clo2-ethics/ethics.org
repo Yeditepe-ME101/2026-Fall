@@ -1,0 +1,47 @@
+#+TITLE: Engineering Ethics
+#+AUTHOR: Fethi Okyar
+#+DATE: <2026-09-26 Sat>
+#+SUBTITLE: ME 101 - 2026 Fall
+#+DESCRIPTION: N/A
+#+STARTUP: overview
+#+REVEAL_THEME: simple
+#+REVEAL_INIT_OPTIONS: slideNumber:"c/t", width:1920, height:1080
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2> <h3>%s</h3> <h4>%d</h4>
+#+OPTIONS: timestamp:nil toc:1 num:nil
+#+REVEAL_EXTRA_CSS: ../style.css
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+
+* Motivation
+#+ATTR_REVEAL: :frag (appear)
+Meaning of the word /ethics/, and why it is important.
+#+ATTR_REVEAL: :frag (appear appear appear ...)
+- What does data tabulation mean?
+  
+* Workshop
+#+ATTR_REVEAL: :frag (appear
+Engineering ethics will be described by doing some case studies.
+** Case 1: Çorum ideCAD skandalı (Mart 2025)
+*** About
+- [[https://t24.com.tr/gundem/hileli-yazilim-kullanan-insaat-muhendisi-tutuklandi,1225169][T24]]
+- [[https://www.iha.com.tr/corum-haberleri/corumda-bina-projelerinde-usulsuzluk-yaptigi-iddia-edilen-insaat-muhendisi-tutuklandi-204725758][İHA]]
+- [[https://www.iscihaber.net/corum/corumda-buyuk-skandal-hileli-yazilimla-binalar-eksik-malzemeyle-yapilmis/146477][İşçi Haber]]
+- [[https://eksisozluk.com/corumda-statik-hesaplari-sabote-eden-muhendis--7948788][Ekşi Sözlük]]
+*** Ethical Aspects
+- Yazılıma Güven
+-
+*** Discussion
+- It is the responsability of the person
+- It is the responsability of the authorizing body
+- It is the responsability of the state
+** Case 2:
+
+* Self-Study
+What is ethics? 
+- Here's a fascinating account of ethics (in Turkish):
+  [[https://www.youtube.com/watch?v=Q88NhXSmK_I][Etik Değerler ve Eğitimi (Ethical Values)]] Ioanna Kuçuradi
+- Another longer yet more detailed account (in Turkish)
+  [[https://www.youtube.com/watch?v=g-MPvywIhJc&t=24s][Ahlaklar, Etik ve Etikler – Prof. Dr. İoanna Kuçuradi]]
+- The universal declaration of human rights
+  [[https://www.un.org/en/about-us/universal-declaration-of-human-rights]]
+- Digital Ethics Canvas
+  https://www.epfl.ch/education/educational-initiatives/cede/training-and-support/digital-ethics/
