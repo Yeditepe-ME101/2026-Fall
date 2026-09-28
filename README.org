@@ -47,8 +47,8 @@
 |     2 | ME Chair           | 0.2 [[./cmpnt-orientation/orient.html::Personal Orientation][Personal Orientation]]    |
 |     3 | Yusome             | 0.3 Career Orientation      |
 |     4 | MMO Representative | 1.0 [[file:./cmpnt-writing/writing.html][Academic Writing]]        |
-|     5 | [[file:sunumlar/ME101_Innovation_2024Fall.pdf][Emre Ozturk]]        | 1.1 Latex Report(cont'd)    |
-|     6 | YuTech Teams       | 2.0 Solid Modeling          |
+|     5 |                    | 1.1 Latex Report(cont'd)    |
+|     6 | YuTech Racing      | 2.0 Solid Modeling          |
 |     7 |                    | 3.0 [[./cmpnt-tabular/tabular.html][Tabulating Data]]         |
 |     8 |                    | 3.1                         |
 |     9 |                    | 4.0 Computer Familiarity    |
