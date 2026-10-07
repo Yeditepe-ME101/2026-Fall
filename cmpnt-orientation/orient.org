@@ -22,12 +22,17 @@ About the future, global issues, challenges on the one hand and opportunities, p
 [[./SWOT_annotated.png]]
 
 ** Lecture: What is a SWOT analyis?
-#+ATTR_REVEAL: :frag (appear)
 Use AI to describe the SWOT analysis. When, why, how is it useful? (Do not forget to provide the educational context while asking the question.) 
+
+*Weakness*-Imagined-*Strength*
+
+*Threat*-Percieved-*Opportunity*
 
 ** Activity 1: Group Formation
 #+ATTR_REVEAL: :frag (appear)
-  We will form small groups of three students; you will be working closely with your teammates throughout the activity.
+- We will form small groups of three students;
+- you will be working closely with your teammates throughout the activity.
+- Find your groupmates in Yulearn
 
 ** Activity 2: Group Discussion: Global Impact on Life
 #+ATTR_REVEAL: :frag (appear)
@@ -50,11 +55,14 @@ Focus: Future Prospects and Challenges
   + Upload the SWOT to the appropriate assignment in Yulearn
 
 #+REVEAL: split
-[[./GenZ-personality-SWOT-analysis-2024.png]]
+Swot Analysis of 2024 Fall
+#+ATTR_HTML: :width 1200px
+[[./GenZ-personality-SWOT-analysis-2024.png][./GenZ-personality-SWOT-analysis-2024.png]]
 
 #+REVEAL: split
+Swot Analysis of 2025 Fall
 #+ATTR_HTML: :width 1200px
-[[./swot_2025.png]]
+[[./swot_2025.png][./swot_2025.png]]
 
 
 * 0.3 Career Orientation (CLO11)
