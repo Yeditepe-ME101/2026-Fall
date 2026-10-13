@@ -64,43 +64,70 @@ Swot Analysis of 2025 Fall
 #+ATTR_HTML: :width 1200px
 [[./swot_2025.png][./swot_2025.png]]
 
-
 * 0.3 Career Orientation (CLO11)
-#+ATTR_REVEAL: :frag (appear)
-What is happening in mechanical engineering?
-#+ATTR_HTML: :width 600px :style "display: block; margin: auto"
+From last week's activity: https://yulearn.yeditepe.edu.tr/mod/page/view.php?id=362498
+
+#+REVEAL: split
+#+BEGIN_QUOTE
+Maddi veya manevi bir fayda temin etmek için, önceden planlanıp başlangıcı ve bitişi tespit edilen, kas veya beyin gücüyle veya hareket edebilen unsurlarla yapılan, yapan veya yapanların bilgi, beceri, kalıtımsal ve sosyal birikimlerini ortaya koydukları ve sonucu zaruri bir ihtiyacı karşılayacak kadar değerli olan eyleme iş denir.
+#+END_QUOTE
+2026, Celaleddin Vardarsuyu
+
+#+REVEAL: split
+- What is happening in mechanical engineering?
+- Find your focus topic
+- Find 5 mind-opening articles
+  + recent (at most 3 years old)
+  + at least 3 of which are from peer-reviewed sources
+  + choose one sentence relevant to your focus topic to be quoted from each article
+  + Use Overleaf to create a one page summary of today's group activity
+
+#+ATTR_HTML: :width 500px :style "display: block; margin: auto"
 [[./wordcloudscom.png]]
 
 ** Lecture: Sources of Information
 #+ATTR_REVEAL: :frag (appear)
-- In today's exercise, we will delve into the amusing world of mechanical engineering and explore various industrial sectors that are integral to the field.  As future engineers, it's vital to embrace life-long learning and stay updated on industry trends and knowledge. You will be asked to use your computers to access relevant industry news websites or databases to find recent news articles or reports about topics or issues that you find interesting.
-- https://asme.org ASME
-- https://imeche.org IMechE
-- ScienceDirect
-- DergiPark
-- Aperta
-- https://nature.org Nature Magazine
-- https://www.science.org/journal/science Science Magazine
++ In today's exercise, we will delve into the amusing world of mechanical engineering and explore various industrial sectors that are integral to the field.  As future engineers, it's vital to embrace life-long learning and stay updated on industry trends and knowledge. You will be asked to use your computers to access relevant industry news websites or databases to find recent news articles or reports about topics or issues that you find interesting.
++ Non Peer-Reviewed Sources
+  + https://asme.org ASME
+  + https://imeche.org IMechE
++ Peer-reviewed Sources
+  + ScienceDirect
+  + DergiPark
+  + https://nature.org Nature Magazine
+  + https://www.science.org/journal/science Science Magazine
     
 ** Activity 1: Group Formation
 #+ATTR_REVEAL: :frag (appear)
 Find your previous group members; you will be working closely with your teammates throughout the activity.
 #+ATTR_REVEAL: :frag (appear)
 + Select one group member as the secretary responsible from taking notes and uploading your work to the assignment.
-+ Open an empty text file in an editor that you can use in the Windows OS (Use a simple editor such as notepad, wordpad, notepad++, emacs, etc.)
-+ Select a topic/keyword that you found interesting in the lecture activity or the tag cloud below, and write it in your file that was created in the previous step.
-+ Communicate with the instructor and reach an agreement upon a mutually agreed keyword.
++ Open an empty text file in an editor (Use a simple editor such as notepad, wordpad, notepad++, emacs, etc.)
 
 ** Activity 2: Group Discussion
 #+ATTR_REVEAL: :frag (appear)
++ Select a topic/keyword that you found interesting in the lecture activity or the tag cloud below, and write it in your file that was created in the previous step.
++ Communicate with the instructor and reach an agreement upon a mutually agreed keyword.
 + Search the internet about the keyword/topic using  the resources described in the previous activity.
-+ Make a list of at least 5 references relevant to the keyword, and ask AI about how to enter these in an appropriate reference format. 
-+ Based on the references you found above, write a paragraph in your text file describing the future prospects and challenges related with  your topic/keyword. 
++ Make a list of at least 5 references relevant to the keyword, 3 of which are from peer-reviewed sources. 
++ From each of the 5 references, find a sentence that outlines/summarizes the relevant focus topic. 
 
-** Deliverables: Group Work of "Keyword"
+** Activity 3: Documentation
 #+ATTR_REVEAL: :frag (appear)
-Enter the text (maximum 600 words) in the appropriate space provided in the assignment: Classwork 2: Keyword Analysis for Next Session
++ Here, you will carry your work to Overleaf
++ All Group Members opens accounts in Overleaf
++ Group Secretary creates a document from a Blank Template
++ Group Secretary shares editable document links with other members
++ Copy/paste the bibtex citations to a separate bibliography (.bib) file in Overleaf
++ In the main file (main.tex) use the =\begin{quote}= environment to copy/paste the five sentences from each reference
++ Add relevant citations to each quote using the =\cite{}= key
++ Add a title and subtitle to your document
++ Add the names of group members as authors
++ Compile and create a PDF.
+  
+** Deliverables: Upload PDF
+Upload the PDF in the appropriate space provided in the assignment.
+
 Ask *AI*:
-#+ATTR_REVEAL: :frag (appear)
 - What is LaTeX?
 - How to use computers to write a good engineering report?
