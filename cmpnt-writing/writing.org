@@ -52,7 +52,9 @@ Visit some important references (5-10 minutes each):
 #+ATTR_REVEAL: :frag (appear appear appear ...)
 - [[https://latex.org/forum/][The Latex Community Discussion Forum]]
 - [[https://tug.org/begin.html][Getting started with TeX, LaTeX, and friends]]
-- [[https://www.latex-project.org/][The LaTeX Project]] 
+- [[https://www.latex-project.org/][The LaTeX Project]]
+- [[https://www.youtube.com/watch?v=y8y_KIs9JLs][Tutorial for writing lab reports in LaTeX and Overleaf]], Andrew Falkowski
+- [[https://www.youtube.com/watch?v=FXujG7c9p8g][Latex Tutorial 0 of 11: Introduction, Preface]], Alex Baran Harper
 
 ** [[https://www.overleaf.com][Overleaf, Online LaTeX Editor]]
 #+ATTR_REVEAL: :frag (appear)
