@@ -14,13 +14,11 @@
 * Motivation
 #+ATTR_REVEAL: :frag (appear)
 Meaning of the word /ethics/, and why it is important.
-#+ATTR_REVEAL: :frag (appear appear appear ...)
-- What does data tabulation mean?
   
 * Workshop
 #+ATTR_REVEAL: :frag (appear
 Engineering ethics will be described by doing some case studies.
-** Case 1: Çorum ideCAD skandalı (Mart 2025)
+** Case: Çorum ideCAD skandalı (Mart 2025)
 *** About
 - [[https://t24.com.tr/gundem/hileli-yazilim-kullanan-insaat-muhendisi-tutuklandi,1225169][T24]]
 - [[https://www.iha.com.tr/corum-haberleri/corumda-bina-projelerinde-usulsuzluk-yaptigi-iddia-edilen-insaat-muhendisi-tutuklandi-204725758][İHA]]
@@ -33,15 +31,66 @@ Engineering ethics will be described by doing some case studies.
 - It is the responsability of the person
 - It is the responsability of the authorizing body
 - It is the responsability of the state
-** Case 2:
+** Article: Reflections on Ethics
+Dr Federico Restrepo,
+Doctor Honoris Causa,
+Universidad Nacional de Colombia
 
-* Self-Study
-What is ethics? 
+This text revisits the words I spoke upon receiving the Doctorate Honoris Causa distinction from my Alma Mater, the Universidad Nacional de Colombia, highlighting my public and private contributions to addressing our country's problems.
+
+Accepting the honor of receiving this distinction invites me to look back in retrospect over decades of professional practice, recognizing that technical knowledge would lack true value if it were not anchored to a higher purpose. This allows me to reaffirm to academia, my colleagues, and society, that the moral compass must remain unalterable in the face of the dizzying transformations of our time.
+
+Let us start with the most basic: ethics is not simply obedience to externally imposed rules, or hard ethics as L. Floridi (2018)1 calls it, but rather a life attitude that aims for the common good, or a soft ethics, as Floridi mentions. This invites us to think of ethics as a way of interacting with the world, with a sensitivity towards each other and a deep commitment to justice. These concepts are vital in the ecosystem offered by tools such as information technologies and artificial intelligence (AI).
+
+Each of us is responsible for our words and our actions. Fortunately, thanks to the advancement of technology, we have new support tools that facilitate our professional work. However, we must not forget that as we advance in our professional life, the words we speak, the stances we assume, and the way we express our vision of the world, gain more weight. They demand of us, increasingly, a greater responsibility.
+
+We must start with an essential concept: there is only one ethic. Ethics is not situational. Whether we exercise our professions in person or virtually within new technological platforms, our ethical responsibility remains the same. It is not acceptable to be respectful, for example, of women's rights in one setting, and contradict that position in another. We cannot be members of a university community if we are not respectful of differences, promoters of informed debate, and guarantors of the freedoms of others, in all scenarios.
+
+In this sense, there are many spaces where we exercise our citizenship, where we leave an inspiring or transformative mark. Within our families, we receive training and return behaviors consistent with that training. In the academic and professional fields and in society in general, we express ourselves according to our principles and values. But it is precisely at this moment in history, in which the barriers between the "real" and virtual worlds are increasingly thin, when our society demands even more coherence in our actions.
+
+It is a false choice that proposes the idea of being one person in the universe and another in the Metaverse, or of hiding behind an avatar to promote lies, aggression, hatred, and discrimination. We must not forget that the masks used to misinform, distort, and lie will always end up falling.
+
+The delegation of decisions to autonomous agents raises a critical question: 
+Who assumes responsibility when an algorithm harms, excludes concepts or fails?
+
+Information and Communication Technologies (ICT) have democratized access to knowledge, but they have created ecosystems in which misinformation can spread. Transparency in the design of these systems and technology that closes inequality gaps are non-negotiable. 
+
+Today, the practice of a profession has almost immediate consequences for people and the environment around us, and it is there that ethical behavior becomes visible in all our decisions and actions. 
+
+The discussion about the future of work is intense and profound: with the rise of AI, many advances, great challenges, and new uses will come that will surprise us. 
+
+In this context face-to-face relationships, person-to-person interactions, the discussions and debates that Academia fosters, and the independent judgment academia fosters become even more valuable. It is our responsibility to make professional and personal decisions based on ethical and informed reasoning and not dictated by other people or by AI algorithms. 
+
+Engineering, for instance, affects people's lives directly. The infrastructures we design and build are not just physical work; they are part of the fabric that sustains society. Our decisions influence, among other things, mobility, access to public services, environmental sustainability, and, ultimately, people's quality of life. Hence, ethics is not an option in the exercise of our profession, but the foundation upon which all our decisions must rest. 
+
+When we design modern highways or implement and configure clean energy generation systems—paying attention to the smallest technical detail of the infrastructure and to advanced technological configurations to ensure optimal performance—we are actively deciding on the environmental and economic future of our communities. Ethics prevents us from giving in to the temptation of ignoring environmental impacts in our territories or compromising operational safety to accelerate a project's execution schedule, for example. 
+
+In the exercise of public duty, one of the greatest challenges is maintaining ethical conduct amidst external pressures. Ethics requires not only acting in accordance with the law, but also with transparency, equity, and a profound respect for people's rights.
+
+The political arena is perhaps the scenario where an individual faces its most forceful tests. Politics must be understood and practiced strictly as the art of serving. In the formation of democratic representation mechanisms, foolproof honesty is required. 
+
+Managing public resources and making State decisions must honor the trust placed by citizens. An ethical public servant or political leader is one who is clearly accountable, who rejects corruption in any of its forms, and who understands that power is ephemeral. 
+
+In academia, ethics takes on a different, equally important, dimension. Universities train the next generations of professionals, and this training cannot be limited to the transmission of technical or normative knowledge. The goal must also be to instill in students a profound sense of ethical responsibility that will accompany their careers. Critical and reasoned thinking is especially important in an environment where access to information is increasingly broad, but also more vulnerable to distortion and manipulation. 
+
+Classrooms, workshops, and university research spaces are the true laboratories where the future of a nation is forged. If academia fails to provide students with a solid moral framework, we run the enormous risk of graduating exceptional technicians but morally deficient citizens. Educators have the noble and inescapable task of modeling through their own example. 
+
+Ethics in academia means fostering critical thinking, promoting respect for the diversity of ideas, and ensuring that research is carried out with integrity. This is essential for maintaining the credibility of science & technology and ensuring that advances in these fields are always at the service of humanity. Training ethical citizens means preparing them to question the legitimacy of sources, to bravely resist narratives of simplistic polarization, and to use their degrees not as instruments of superiority, but as valuable tools for community service. 
+
+Ethics must be at the heart of any curriculum. Beyond technical skills, it is ethics that endures throughout a professional life. Ethics is what must guide our decisions when we face dilemmas that are not covered by regulations or technical manuals, and it is what allows us to navigate with integrity through the most complex challenges of our professions. 
+
+One of the great challenges of higher education in the 21st century is that, in a context where the labor market is constantly changing and where young people need to develop skills that allow them to adapt to new realities, ethics must not be relegated to an elective or secondary subject, but rather become the axis that articulates the entire formative process. 
+
+The call made to us by history and the contemporary world is for absolute coherence. Whether we are adapting to the new demands of artificial intelligence, planning the infrastructure that will unite our geographies, participating in the political decisions that govern our country, or educating those who will take up our mantle, the imperative is always the same. 
+
+The greatest legacy we can leave as engineers is not measured in cubic meters of concrete or in lines of code, but in the ethical footprint of our actions in society.
+** Videos
 - Here's a fascinating account of ethics (in Turkish):
   [[https://www.youtube.com/watch?v=Q88NhXSmK_I][Etik Değerler ve Eğitimi (Ethical Values)]] Ioanna Kuçuradi
 - Another longer yet more detailed account (in Turkish)
   [[https://www.youtube.com/watch?v=g-MPvywIhJc&t=24s][Ahlaklar, Etik ve Etikler – Prof. Dr. İoanna Kuçuradi]]
+  
+* Self-Study
+What is ethics? 
 - The universal declaration of human rights
   [[https://www.un.org/en/about-us/universal-declaration-of-human-rights]]
-- Digital Ethics Canvas
-  https://www.epfl.ch/education/educational-initiatives/cede/training-and-support/digital-ethics/
