@@ -41,22 +41,22 @@
 
 * Weekly outline
 #+REVEAL_HTML: <div style="font-size: 80%;">
-|  Week | [[file:ME101_speakers-Fall26.png][Speakers]] (Seminar) | Laboratory Session             |
-|-------+--------------------+--------------------------------|
-|     1 | Instructor         | 0.1 [[file+sys:./cmpnt-orientation/0.w1AcademicOrientation.pdf][Academic Orientation]]       |
-|     2 | ME Chair           | 0.2 [[./cmpnt-orientation/orient.html::Personal Orientation][Personal Orientation]]       |
-|     3 | Yusome             | 0.3 Career Orientation         |
-|     4 | MMO Representative | 2.0 Solid Modeling             |
-|     5 | 29 Ekim Arifesi    | National Holiday               |
-|     6 | YuTech Racing      | 5.0 3D Visualization/Sketching |
-|     7 | Alper Uytun        | 6.0 Experiment                 |
-|     8 |                    | 6.1 Analysis                   |
-|     9 |                    | 4.0 Scientific Computing       |
-| (S) 9 | Saturday Session   | 3.0 [[./cmpnt-tabular/tabular.html][Visualizing Data]]           |
-|    10 |                    | 3.1 Data Workshop              |
-|    11 |                    | 1.0 [[file:./cmpnt-writing/writing.html][Engineering Reports]]        |
-|    12 |                    | 1.1 Poster Workshop            |
-|    13 |                    | 6.2 Presentation               |
+|  Week | [[file:ME101_speakers-Fall26.png][Speakers]] (Seminar)       | Laboratory Session             |
+|-------+--------------------------+--------------------------------|
+|     1 | Instructor               | 0.1 [[file+sys:./cmpnt-orientation/0.w1AcademicOrientation.pdf][Academic Orientation]]       |
+|     2 | ME Chair                 | 0.2 [[./cmpnt-orientation/orient.html::Personal Orientation][Personal Orientation]]       |
+|     3 | Yusome                   | 0.3 Career Orientation         |
+|     4 | MMO Representative       | 2.0 Solid Modeling             |
+|     5 | 29 Ekim Arifesi          | National Holiday               |
+|     6 | YuTech Racing            | 5.0 3D Visualization/Sketching |
+|     7 | Alper Uytun  (ME'09)     | 6.0 Experiment                 |
+|     8 | Nedimcan Aytemur (ME'18) | 6.1 Analysis                   |
+|     9 | Şükrü Özkılıç (ME'11)    | 4.0 Scientific Computing       |
+| (S) 9 | Saturday Session         | 3.0 [[./cmpnt-tabular/tabular.html][Visualizing Data]]           |
+|    10 |                          | 3.1 Data Workshop              |
+|    11 |                          | 1.0 [[file:./cmpnt-writing/writing.html][Engineering Reports]]        |
+|    12 |                          | 1.1 Poster Workshop            |
+|    13 |                          | 6.2 Presentation               |
 
 * Resources
 #+REVEAL_HTML: <div style="font-size: 60%;">
