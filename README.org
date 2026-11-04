@@ -54,8 +54,8 @@
 |     9 | Şükrü Özkılıç (ME'11)    | 4.0 Scientific Computing       |
 | (S) 9 | Saturday Session         | 3.0 [[./cmpnt-tabular/tabular.html][Visualizing Data]]           |
 |    10 |                          | 3.1 Data Workshop              |
-|    11 |                          | 1.0 [[file:./cmpnt-writing/writing.html][Engineering Reports]]        |
-|    12 |                          | 1.1 Poster Workshop            |
+|    11 | Bilgehan İşbilir (ME'12) | 1.0 [[file:./cmpnt-writing/writing.html][Engineering Reports]]        |
+|    12 | İrem Ayyıldız (ME'20)    | 1.1 Poster Workshop            |
 |    13 |                          | 6.2 Presentation               |
 
 * Resources
