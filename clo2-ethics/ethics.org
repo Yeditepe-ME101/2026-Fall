@@ -24,18 +24,16 @@ Engineering ethics will be described by doing some case studies.
 - [[https://www.iha.com.tr/corum-haberleri/corumda-bina-projelerinde-usulsuzluk-yaptigi-iddia-edilen-insaat-muhendisi-tutuklandi-204725758][İHA]]
 - [[https://www.iscihaber.net/corum/corumda-buyuk-skandal-hileli-yazilimla-binalar-eksik-malzemeyle-yapilmis/146477][İşçi Haber]]
 - [[https://eksisozluk.com/corumda-statik-hesaplari-sabote-eden-muhendis--7948788][Ekşi Sözlük]]
-*** Ethical Aspects
-- Yazılıma Güven
--
-*** Discussion
-- It is the responsability of the person
-- It is the responsability of the authorizing body
-- It is the responsability of the state
+*** Questions about Responsibility and accountability
+- Should software vendors share liability when their program accepts physically impossible inputs, as in the Çorum case?
+- Where is the line between reasonable reliance on a tool and negligence? Compare a calculator, finite element software, and an AI assistant whose reasoning you cannot inspect.
+- Should engineers have to disclose to clients and authorities that AI was used in their calculations?
+- If an engineer cannot explain how a result was obtained, should they be allowed to sign off on it?
 ** Article: Reflections on Ethics
 Dr Federico Restrepo,
 Doctor Honoris Causa,
 Universidad Nacional de Colombia
-
+https://scontent.fesb7-1.fna.fbcdn.net/v/t39.30808-6/649288975_1506359304391215_6815416350669475360_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=UQc5kzTgQJQQ7kNvwGpYC-4&_nc_oc=Adqfer0EP940J4mIfBieZ74hz3xrHoZgl2nvYIb-hQUe-qmy9WzOb5Xg5UqMW586fg4&_nc_zt=23&_nc_ht=scontent.fesb7-1.fna&_nc_gid=pX-Ul2i7FelwUaUrJsWn2A&_nc_ss=7b289&oh=00_AQQgJtFX4hDxE4syzMXUVHb9VVb_wYE4z7P2INxn-DnKeQ&oe=6B04AEA8
 This text revisits the words I spoke upon receiving the Doctorate Honoris Causa distinction from my Alma Mater, the Universidad Nacional de Colombia, highlighting my public and private contributions to addressing our country's problems.
 
 Accepting the honor of receiving this distinction invites me to look back in retrospect over decades of professional practice, recognizing that technical knowledge would lack true value if it were not anchored to a higher purpose. This allows me to reaffirm to academia, my colleagues, and society, that the moral compass must remain unalterable in the face of the dizzying transformations of our time.
@@ -84,13 +82,24 @@ One of the great challenges of higher education in the 21st century is that, in 
 The call made to us by history and the contemporary world is for absolute coherence. Whether we are adapting to the new demands of artificial intelligence, planning the infrastructure that will unite our geographies, participating in the political decisions that govern our country, or educating those who will take up our mantle, the imperative is always the same. 
 
 The greatest legacy we can leave as engineers is not measured in cubic meters of concrete or in lines of code, but in the ethical footprint of our actions in society.
-** Videos
+*** Questions about Education and competence
+- Which skills must every engineer be able to do unaided, and who decides?
+- Is it fair to assess students on tasks that AI performs better than they do? What should exams measure instead?
+- Should every design report include a hand estimate, a “does this number make sense?” check, before any software result is accepted?
+- Does AI narrow or widen the gap between well-resourced and under-resourced students, universities, or countries?
+- Should predictions from leaders of technology companies about education be treated as advice or as marketing?
+- If you suspected a colleague of falsifying calculations, what would you do, whom would you tell, and what might it cost you?** Self-Study Questions:
+
+** Motions for formal debate
+- An engineer who signs a design is fully responsible for every tool used to produce it.
+- Software used in safety-critical design should be independently certified before use.
+- First-year engineering students should do all calculations by hand before using AI.
+- Reporting a colleague’s misconduct is a professional duty, not a personal choice.
+** References:
+- The universal declaration of human rights
+  [[https://www.un.org/en/about-us/universal-declaration-of-human-rights]]
+*** Videos
 - Here's a fascinating account of ethics (in Turkish):
   [[https://www.youtube.com/watch?v=Q88NhXSmK_I][Etik Değerler ve Eğitimi (Ethical Values)]] Ioanna Kuçuradi
 - Another longer yet more detailed account (in Turkish)
   [[https://www.youtube.com/watch?v=g-MPvywIhJc&t=24s][Ahlaklar, Etik ve Etikler – Prof. Dr. İoanna Kuçuradi]]
-  
-* Self-Study
-What is ethics? 
-- The universal declaration of human rights
-  [[https://www.un.org/en/about-us/universal-declaration-of-human-rights]]
