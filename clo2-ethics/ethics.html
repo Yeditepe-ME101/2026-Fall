@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Engineering Ethics</title>
+<meta name="author" content="Fethi Okyar" />
+<meta name="description" content="N/A" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-c:before { content: 'C'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'JavaScript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Engineering Ethics
+<br />
+<span class="subtitle">ME 101 - 2026 Fall</span>
+</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org423ebb2">Motivation</a></li>
+<li><a href="#orgdf7f128">Workshop</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org423ebb2" class="outline-2">
+<h2 id="org423ebb2">Motivation</h2>
+<div class="outline-text-2" id="text-org423ebb2">
+<p>
+Meaning of the word <i>ethics</i>, and why it is important.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdf7f128" class="outline-2">
+<h2 id="orgdf7f128">Workshop</h2>
+<div class="outline-text-2" id="text-orgdf7f128">
+<p>
+Engineering ethics will be described by doing some case studies.
+</p>
+</div>
+<div id="outline-container-org2b37eaf" class="outline-3">
+<h3 id="org2b37eaf">Case: Çorum ideCAD skandalı (Mart 2025)</h3>
+<div class="outline-text-3" id="text-org2b37eaf">
+</div>
+<div id="outline-container-org2b016ed" class="outline-4">
+<h4 id="org2b016ed">About</h4>
+<div class="outline-text-4" id="text-org2b016ed">
+<ul class="org-ul">
+<li><a href="https://t24.com.tr/gundem/hileli-yazilim-kullanan-insaat-muhendisi-tutuklandi,1225169">T24</a></li>
+<li><a href="https://www.iha.com.tr/corum-haberleri/corumda-bina-projelerinde-usulsuzluk-yaptigi-iddia-edilen-insaat-muhendisi-tutuklandi-204725758">İHA</a></li>
+<li><a href="https://www.iscihaber.net/corum/corumda-buyuk-skandal-hileli-yazilimla-binalar-eksik-malzemeyle-yapilmis/146477">İşçi Haber</a></li>
+<li><a href="https://eksisozluk.com/corumda-statik-hesaplari-sabote-eden-muhendis--7948788">Ekşi Sözlük</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org92c6520" class="outline-4">
+<h4 id="org92c6520">Questions about Responsibility and accountability</h4>
+<div class="outline-text-4" id="text-org92c6520">
+<ul class="org-ul">
+<li>Should software vendors share liability when their program accepts physically impossible inputs, as in the Çorum case?</li>
+<li>Where is the line between reasonable reliance on a tool and negligence? Compare a calculator, finite element software, and an AI assistant whose reasoning you cannot inspect.</li>
+<li>Should engineers have to disclose to clients and authorities that AI was used in their calculations?</li>
+<li>If an engineer cannot explain how a result was obtained, should they be allowed to sign off on it?</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org7596aee" class="outline-3">
+<h3 id="org7596aee">Article: Reflections on Ethics</h3>
+<div class="outline-text-3" id="text-org7596aee">
+<p>
+Dr Federico Restrepo,
+Doctor Honoris Causa,
+Universidad Nacional de Colombia
+<img src="https://scontent.fesb7-1.fna.fbcdn.net/v/t39.30808-6/649288975_1506359304391215_6815416350669475360_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx960x960&amp;ctp=s960x960&amp;_nc_cat=100&amp;_nc_map=urlgen_bucketless&amp;ccb=1-7&amp;_nc_sid=6ee11a&amp;_nc_ohc=UQc5kzTgQJQQ7kNvwGpYC-4&amp;_nc_oc=Adqfer0EP940J4mIfBieZ74hz3xrHoZgl2nvYIb-hQUe-qmy9WzOb5Xg5UqMW586fg4&amp;_nc_zt=23&amp;_nc_ht=scontent.fesb7-1.fna&amp;_nc_gid=pX-Ul2i7FelwUaUrJsWn2A&amp;_nc_ss=7b289&amp;oh=00_AQQgJtFX4hDxE4syzMXUVHb9VVb_wYE4z7P2INxn-DnKeQ&amp;oe=6B04AEA8" alt="649288975_1506359304391215_6815416350669475360_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx960x960&amp;ctp=s960x960&amp;_nc_cat=100&amp;_nc_map=urlgen_bucketless&amp;ccb=1-7&amp;_nc_sid=6ee11a&amp;_nc_ohc=UQc5kzTgQJQQ7kNvwGpYC-4&amp;_nc_oc=Adqfer0EP940J4mIfBieZ74hz3xrHoZgl2nvYIb-hQUe-qmy9WzOb5Xg5UqMW586fg4&amp;_nc_zt=23&amp;_nc_ht=scontent.fesb7-1.fna&amp;_nc_gid=pX-Ul2i7FelwUaUrJsWn2A&amp;_nc_ss=7b289&amp;oh=00_AQQgJtFX4hDxE4syzMXUVHb9VVb_wYE4z7P2INxn-DnKeQ&amp;oe=6B04AEA8" />
+This text revisits the words I spoke upon receiving the Doctorate Honoris Causa distinction from my Alma Mater, the Universidad Nacional de Colombia, highlighting my public and private contributions to addressing our country&rsquo;s problems.
+</p>
+
+<p>
+Accepting the honor of receiving this distinction invites me to look back in retrospect over decades of professional practice, recognizing that technical knowledge would lack true value if it were not anchored to a higher purpose. This allows me to reaffirm to academia, my colleagues, and society, that the moral compass must remain unalterable in the face of the dizzying transformations of our time.
+</p>
+
+<p>
+Let us start with the most basic: ethics is not simply obedience to externally imposed rules, or hard ethics as L. Floridi (2018)1 calls it, but rather a life attitude that aims for the common good, or a soft ethics, as Floridi mentions. This invites us to think of ethics as a way of interacting with the world, with a sensitivity towards each other and a deep commitment to justice. These concepts are vital in the ecosystem offered by tools such as information technologies and artificial intelligence (AI).
+</p>
+
+<p>
+Each of us is responsible for our words and our actions. Fortunately, thanks to the advancement of technology, we have new support tools that facilitate our professional work. However, we must not forget that as we advance in our professional life, the words we speak, the stances we assume, and the way we express our vision of the world, gain more weight. They demand of us, increasingly, a greater responsibility.
+</p>
+
+<p>
+We must start with an essential concept: there is only one ethic. Ethics is not situational. Whether we exercise our professions in person or virtually within new technological platforms, our ethical responsibility remains the same. It is not acceptable to be respectful, for example, of women&rsquo;s rights in one setting, and contradict that position in another. We cannot be members of a university community if we are not respectful of differences, promoters of informed debate, and guarantors of the freedoms of others, in all scenarios.
+</p>
+
+<p>
+In this sense, there are many spaces where we exercise our citizenship, where we leave an inspiring or transformative mark. Within our families, we receive training and return behaviors consistent with that training. In the academic and professional fields and in society in general, we express ourselves according to our principles and values. But it is precisely at this moment in history, in which the barriers between the &ldquo;real&rdquo; and virtual worlds are increasingly thin, when our society demands even more coherence in our actions.
+</p>
+
+<p>
+It is a false choice that proposes the idea of being one person in the universe and another in the Metaverse, or of hiding behind an avatar to promote lies, aggression, hatred, and discrimination. We must not forget that the masks used to misinform, distort, and lie will always end up falling.
+</p>
+
+<p>
+The delegation of decisions to autonomous agents raises a critical question: 
+Who assumes responsibility when an algorithm harms, excludes concepts or fails?
+</p>
+
+<p>
+Information and Communication Technologies (ICT) have democratized access to knowledge, but they have created ecosystems in which misinformation can spread. Transparency in the design of these systems and technology that closes inequality gaps are non-negotiable. 
+</p>
+
+<p>
+Today, the practice of a profession has almost immediate consequences for people and the environment around us, and it is there that ethical behavior becomes visible in all our decisions and actions. 
+</p>
+
+<p>
+The discussion about the future of work is intense and profound: with the rise of AI, many advances, great challenges, and new uses will come that will surprise us. 
+</p>
+
+<p>
+In this context face-to-face relationships, person-to-person interactions, the discussions and debates that Academia fosters, and the independent judgment academia fosters become even more valuable. It is our responsibility to make professional and personal decisions based on ethical and informed reasoning and not dictated by other people or by AI algorithms. 
+</p>
+
+<p>
+Engineering, for instance, affects people&rsquo;s lives directly. The infrastructures we design and build are not just physical work; they are part of the fabric that sustains society. Our decisions influence, among other things, mobility, access to public services, environmental sustainability, and, ultimately, people&rsquo;s quality of life. Hence, ethics is not an option in the exercise of our profession, but the foundation upon which all our decisions must rest. 
+</p>
+
+<p>
+When we design modern highways or implement and configure clean energy generation systems—paying attention to the smallest technical detail of the infrastructure and to advanced technological configurations to ensure optimal performance—we are actively deciding on the environmental and economic future of our communities. Ethics prevents us from giving in to the temptation of ignoring environmental impacts in our territories or compromising operational safety to accelerate a project&rsquo;s execution schedule, for example. 
+</p>
+
+<p>
+In the exercise of public duty, one of the greatest challenges is maintaining ethical conduct amidst external pressures. Ethics requires not only acting in accordance with the law, but also with transparency, equity, and a profound respect for people&rsquo;s rights.
+</p>
+
+<p>
+The political arena is perhaps the scenario where an individual faces its most forceful tests. Politics must be understood and practiced strictly as the art of serving. In the formation of democratic representation mechanisms, foolproof honesty is required. 
+</p>
+
+<p>
+Managing public resources and making State decisions must honor the trust placed by citizens. An ethical public servant or political leader is one who is clearly accountable, who rejects corruption in any of its forms, and who understands that power is ephemeral. 
+</p>
+
+<p>
+In academia, ethics takes on a different, equally important, dimension. Universities train the next generations of professionals, and this training cannot be limited to the transmission of technical or normative knowledge. The goal must also be to instill in students a profound sense of ethical responsibility that will accompany their careers. Critical and reasoned thinking is especially important in an environment where access to information is increasingly broad, but also more vulnerable to distortion and manipulation. 
+</p>
+
+<p>
+Classrooms, workshops, and university research spaces are the true laboratories where the future of a nation is forged. If academia fails to provide students with a solid moral framework, we run the enormous risk of graduating exceptional technicians but morally deficient citizens. Educators have the noble and inescapable task of modeling through their own example. 
+</p>
+
+<p>
+Ethics in academia means fostering critical thinking, promoting respect for the diversity of ideas, and ensuring that research is carried out with integrity. This is essential for maintaining the credibility of science &amp; technology and ensuring that advances in these fields are always at the service of humanity. Training ethical citizens means preparing them to question the legitimacy of sources, to bravely resist narratives of simplistic polarization, and to use their degrees not as instruments of superiority, but as valuable tools for community service. 
+</p>
+
+<p>
+Ethics must be at the heart of any curriculum. Beyond technical skills, it is ethics that endures throughout a professional life. Ethics is what must guide our decisions when we face dilemmas that are not covered by regulations or technical manuals, and it is what allows us to navigate with integrity through the most complex challenges of our professions. 
+</p>
+
+<p>
+One of the great challenges of higher education in the 21st century is that, in a context where the labor market is constantly changing and where young people need to develop skills that allow them to adapt to new realities, ethics must not be relegated to an elective or secondary subject, but rather become the axis that articulates the entire formative process. 
+</p>
+
+<p>
+The call made to us by history and the contemporary world is for absolute coherence. Whether we are adapting to the new demands of artificial intelligence, planning the infrastructure that will unite our geographies, participating in the political decisions that govern our country, or educating those who will take up our mantle, the imperative is always the same. 
+</p>
+
+<p>
+The greatest legacy we can leave as engineers is not measured in cubic meters of concrete or in lines of code, but in the ethical footprint of our actions in society.
+</p>
+</div>
+<div id="outline-container-orgcd1d0fb" class="outline-4">
+<h4 id="orgcd1d0fb">Questions about Education and competence</h4>
+<div class="outline-text-4" id="text-orgcd1d0fb">
+<ul class="org-ul">
+<li>Which skills must every engineer be able to do unaided, and who decides?</li>
+<li>Is it fair to assess students on tasks that AI performs better than they do? What should exams measure instead?</li>
+<li>Should every design report include a hand estimate, a “does this number make sense?” check, before any software result is accepted?</li>
+<li>Does AI narrow or widen the gap between well-resourced and under-resourced students, universities, or countries?</li>
+<li>Should predictions from leaders of technology companies about education be treated as advice or as marketing?</li>
+<li>If you suspected a colleague of falsifying calculations, what would you do, whom would you tell, and what might it cost you?** Self-Study Questions:</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfe142d1" class="outline-3">
+<h3 id="orgfe142d1">Motions for formal debate</h3>
+<div class="outline-text-3" id="text-orgfe142d1">
+<ul class="org-ul">
+<li>An engineer who signs a design is fully responsible for every tool used to produce it.</li>
+<li>Software used in safety-critical design should be independently certified before use.</li>
+<li>First-year engineering students should do all calculations by hand before using AI.</li>
+<li>Reporting a colleague’s misconduct is a professional duty, not a personal choice.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4cb10d5" class="outline-3">
+<h3 id="org4cb10d5">References:</h3>
+<div class="outline-text-3" id="text-org4cb10d5">
+<ul class="org-ul">
+<li>The universal declaration of human rights
+<a href="https://www.un.org/en/about-us/universal-declaration-of-human-rights">https://www.un.org/en/about-us/universal-declaration-of-human-rights</a></li>
+</ul>
+</div>
+<div id="outline-container-org241b2c6" class="outline-4">
+<h4 id="org241b2c6">Videos</h4>
+<div class="outline-text-4" id="text-org241b2c6">
+<ul class="org-ul">
+<li>Here&rsquo;s a fascinating account of ethics (in Turkish):
+<a href="https://www.youtube.com/watch?v=Q88NhXSmK_I">Etik Değerler ve Eğitimi (Ethical Values)</a> Ioanna Kuçuradi</li>
+<li>Another longer yet more detailed account (in Turkish)
+<a href="https://www.youtube.com/watch?v=g-MPvywIhJc&amp;t=24s">Ahlaklar, Etik ve Etikler – Prof. Dr. İoanna Kuçuradi</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2026-09-26 Sat 00:00</p>
+<p class="author">Author: Fethi Okyar</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
