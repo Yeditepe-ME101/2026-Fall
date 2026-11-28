@@ -52,8 +52,8 @@
 |     7 | Alper Uytun  (ME'09)     | 6.0 Experiment                 |
 |     8 | Nedimcan Aytemur (ME'18) | 6.1 Analysis                   |
 |     9 | Şükrü Özkılıç (ME'11)    | 4.0 Scientific Computing       |
-| (S) 9 | Saturday Session         | 3.0 [[./cmpnt-tabular/tabular.html][Visualizing Data]]           |
-|    10 | Enterpreneur Trio        | 1.0 [[file:./cmpnt-writing/writing.html][Engineering Reports]]        |
+| (S) 9 | [[https://meet.jit.si/yeditepe-me101-ekders][Saturday Session]]         | 3.0 [[./cmpnt-tabular/tabular.html][Visualizing Data]]           |
+|    10 | Erol and Ürel (ME'08)    | 1.0 [[file:./cmpnt-writing/writing.html][Engineering Reports]]        |
 |    11 | Bilgehan İşbilir (ME'12) | 1.1 Poster Workshop            |
 |    12 | İrem Ayyıldız (ME'20)    | 1.2 Getting it All Together    |
 |    13 | Ömer Faruk Büyükkaya     | 6.2 Presentation               |
