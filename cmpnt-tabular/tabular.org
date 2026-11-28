@@ -10,28 +10,24 @@
 #+REVEAL_EXTRA_CSS: ../style.css
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 
-* Engineering Data Tabulation
+* Outline
 #+ATTR_REVEAL: :frag (appear)
-Various local resources are available from the Yulearn course pages 
-#+ATTR_REVEAL: :frag (appear appear appear ...)
-
-** [[https://yulearn.yeditepe.edu.tr/pluginfile.php/925852/mod_folder/content/0/excel_workshop.pdf?forcedownload=1][Elements of Data Tabulation and Visualization]]
+- In this session, a workshop related with data manipulation and visualization using engineering tools will be carried out. The two main tools that will be covered are:
+  #+ATTR_REVEAL: :frag (appear)
+  - Spreadsheets: Excel, GoogleSheets, Libreoffice Calc, etc.
+  - CSV processing software, Gnuplot.
+- Although the assignment can be accomplished by both of these tools, we will use Gnuplot with help from AI during the workshop.
+* [[https://yulearn.yeditepe.edu.tr/pluginfile.php/925852/mod_folder/content/0/excel_workshop.pdf?forcedownload=1][Using Spreadsheets in Engineering Calculations]]
 #+ATTR_REVEAL: :frag (appear)
 Review of the linked presentation
 Duration: 45-50 minutes
-
 * [[https://youtu.be/p0TQ8SV0g2U?si=dO6MFchgCBwBF2fP][Tensile Test Data Analysis]]
 #+ATTR_REVEAL: :frag (appear)
 - Watch the video linked to the slide title (the Youtube video showing stress-strain data manipulation to measure the elastic modulus and yield strength from a tensile test data file)
+* Workshop: Gnuplot
 - Import and analyze the tensile test [[https://yulearn.yeditepe.edu.tr/pluginfile.php/925852/mod_folder/content/0/Specimen_HamVeri_1.csv?forcedownload=1][data file]].
-Duration: 45-50 minutes
-
-** Assignment
+- Following the method and procedure outlined in the video, construct a stress-strain graph using Gnuplot.
+* Assignment
 #+ATTR_REVEAL: :frag (appear)
-Finish your work and post the gnuplot code (into the text area) as well as the resulting png to the [[https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=357541][Yulearn Assignment Activity]].
-Deadline: @18:00 p.m., Saturday, Dec. 5, 2026.
-
-* Questions for next session
-Ask *AI*:
-#+ATTR_REVEAL: :frag (appear appear appear ...)
-- What are the benefits of improving free-hand sketching skills for an undergraduate engineering student?
+- Finish your work and post the gnuplot code (into the text area) as well as the resulting png to the [[https://yulearn.yeditepe.edu.tr/mod/assign/view.php?id=357541][Yulearn Assignment Activity]].
+  Deadline: @18:00 p.m., Saturday, Dec. 5, 2026.
