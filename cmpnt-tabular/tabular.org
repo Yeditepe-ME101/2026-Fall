@@ -25,7 +25,9 @@ Duration: 45-50 minutes
 #+ATTR_REVEAL: :frag (appear)
 - Watch the video linked to the slide title (the Youtube video showing stress-strain data manipulation to measure the elastic modulus and yield strength from a tensile test data file)
 * Workshop: Gnuplot
-- Import and analyze the tensile test [[https://yulearn.yeditepe.edu.tr/pluginfile.php/925852/mod_folder/content/0/Specimen_HamVeri_1.csv?forcedownload=1][data file]].
+- INstall WSL if you are using a Windows OS by following instructions [[https://universityofalberta.freshservice.com/support/solutions/articles/19000154485-Windows-Subsystem-for-Linux-WSL-][here]].
+- Import the tensile test [[https://yulearn.yeditepe.edu.tr/pluginfile.php/925852/mod_folder/content/0/Specimen_HamVeri_1.csv?forcedownload=1][data file]] to WSL, and open the file in an editor of your choice (e.g. Visual Studio Code, Notepad++, etc.).
+- Install gnuplot in WSL via apt-get, or in Windows.
 - Following the method and procedure outlined in the video, construct a stress-strain graph using Gnuplot.
 * Assignment
 #+ATTR_REVEAL: :frag (appear)
